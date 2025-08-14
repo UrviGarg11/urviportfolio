@@ -16,7 +16,22 @@ p {
     line-height: 1.5em;
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: rgb(106, 131, 135);
+    text-align: left;
 }
+
+nav {
+  text-align: center; /* centers whatever is inside nav */
+}
+
+nav ul {
+  display: inline-block; /* makes the list a centered block */
+  text-align: left;      /* keeps bullets and text left-aligned */
+  list-style-position: inside; /* moves bullets closer to text */
+  padding-left: 1em;     /* small gap for bullets */
+  margin: 0;             /* removes default margin */
+}
+
